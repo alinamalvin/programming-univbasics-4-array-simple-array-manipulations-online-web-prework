@@ -29,3 +29,6 @@ def using_concat(my_favorite_things,all_my_favs)
 def using_insert(list_of_programming_languages)
   list_of_programming_languages.insert(3, "Python")
 end
+
+def using_uniq()
+end
