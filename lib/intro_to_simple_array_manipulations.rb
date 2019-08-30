@@ -18,4 +18,8 @@ def using_shift(y_favorite_cities)
  my_favorite_cities.shift() 
 end
 
+def using_shift(y_favorite_cities)
+ my_favorite_cities.shift(2) 
+end
+
 
