@@ -31,7 +31,5 @@ def using_insert(list_of_programming_languages)
 end
 
 def using_uniq(haircuts)
-  haircuts.uniq = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-    new_array = using_uniq(haircuts)
-    expect(new_array).to eq(["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler"])
+  haircuts.uniq 
 end
