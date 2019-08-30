@@ -19,8 +19,7 @@ def using_shift(y_favorite_cities)
 end
 
 def using_shift(y_favorite_cities)
-  ice_cream_brands.shift(2) = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-    @brands_removed = shift_with_args(@ice_cream_brands)
+  ice_cream_brands.shift(2) 
 end
 
 
