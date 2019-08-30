@@ -18,7 +18,7 @@ def using_shift(y_favorite_cities)
  my_favorite_cities.shift() 
 end
 
-def using_shift_args(ice_cream_brands)
+def shift_with_args(ice_cream_brands)
   ice_cream_brands.shift(2) 
 end
 
